@@ -1,0 +1,117 @@
+{
+  "uuid": "6eb9e643b7d925642de78b04de453928",
+  "path": "Offline/CANageddonBus",
+  "name": "CANageddonBus",
+  "content": "",
+  "created_at": "2023-01-16 11:42:39",
+  "updated_at": "2023-03-01 15:03:53",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "772d66ee3d74c4ddd20596f5fe5c3b37",
+      "title": "CANageddonBus_Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "42a4ab0f772c45d88f7e569ae76735ff": 14,
+        "506025053feb4130993e46557826a212": 1,
+        "31fc25f1529e9ea2a5abd495b0c79ef1": 1,
+        "28406a808cb043078aab8456c29d3d64": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1726480104",
+          14,
+          "MOLEX_1726480104",
+          "1,2,3,4,5,6,7,8,9,10,11,12,A_TO_RIO,B_TO_PDH/BOARD",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "5cbf179e328a49dc9271e1c27b5562e1",
+            "uuid": "42a4ab0f772c45d88f7e569ae76735ff"
+          }
+        ],
+        [
+          "PINHD-2X3",
+          1,
+          "2X03",
+          "JP1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "7f5fa180e6d14230b27e8b3465237b46",
+            "uuid": "28406a808cb043078aab8456c29d3d64"
+          }
+        ],
+        [
+          "HL-503S45FC",
+          1,
+          "LED-TH_BD5.0-P2.54-FD",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C568942",
+            "BOM_Manufacturer": "HONGLITRONIC(鸿利光电)",
+            "BOM_Manufacturer Part": "HL-503S45FC",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "06b5cd08f3384a54acbf965c7106184b",
+            "uuid": "506025053feb4130993e46557826a212"
+          }
+        ],
+        [
+          "180Ω",
+          1,
+          "RES-TH_BD2.5-L6.5-P10.50-D0.6",
+          "R1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UNI-ROYAL(厚声)",
+            "BOM_Manufacturer Part": "MFR0W4F1800A50",
+            "BOM_Supplier Part": "C58665",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f6ffa34674dd47c09fdfebb09b99661e",
+            "uuid": "31fc25f1529e9ea2a5abd495b0c79ef1"
+          }
+        ]
+      ],
+      "updateTime": 1677701033,
+      "createTime": 1673887359,
+      "histories": [],
+      "created_at": "2023-01-16 11:42:39",
+      "updated_at": "2023-03-01 15:03:53"
+    },
+    {
+      "uuid": "0a5d9026a383f3ef55fd13c22cf23017",
+      "puuid": "6eb9e643b7d925642de78b04de453928",
+      "title": "pcb_v1.1_CANageddonBus",
+      "filename": "pcb_v1.1_CANageddonBus.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5cbf179e328a49dc9271e1c27b5562e1": 14,
+        "06b5cd08f3384a54acbf965c7106184b": 1,
+        "f6ffa34674dd47c09fdfebb09b99661e": 1
+      },
+      "BOM": [],
+      "updateTime": 1677700960,
+      "createTime": 1677700960,
+      "histories": [],
+      "created_at": "2023-03-01 15:02:40",
+      "updated_at": "2023-03-01 15:02:40"
+    }
+  ],
+  "sort": [],
+  "title": "CANageddonBus",
+  "foldername": "CANageddonBus",
+  "schfilename": "CANageddonBus.json",
+  "schfilemtime": 1677701033212
+}
